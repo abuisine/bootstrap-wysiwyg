@@ -245,6 +245,13 @@
                 } ).fail( function( e ) {
                     options.fileUploadError( "file-reader", e );
                 } );
+            } else if ( /^video\//.test( fileInfo.type ) ) {
+                $.when( self.readFileIntoDataUrl( fileInfo ) ).done( function( dataUrl ) {
+                    self.execCommand( "inserthtml", '<video controls controlsList="nodownload" src="' + dataUrl + '"/>', editor, options, toolbarBtnSelector );
+                    editor.trigger( "video-inserted" );
+                } ).fail( function( e ) {
+                    options.fileUploadError( "file-reader", e );
+                } );
             } else {
                 options.fileUploadError( "unsupported-file-type", fileInfo.type );
             }
