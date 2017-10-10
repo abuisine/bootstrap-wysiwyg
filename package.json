@@ -10,7 +10,11 @@
     {
       "name": "Tyler Hughes",
       "url": "https://github.com/RandomlyKnighted"
-    }
+    },
+    {
+      "name": "Alexandre Buisine",
+      "url": "https://github.com/abuisine"
+    },
   ],
   "main": "js/bootstrap-wysiwyg.min.js",
   "dependencies": {},
@@ -38,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/steveathon/bootstrap-wysiwyg"
+    "url": "https://github.com/abuisine/bootstrap-wysiwyg"
   },
   "keywords": [
     "css",
@@ -52,7 +56,7 @@
   "license": "MIT",
   "private": false,
   "bugs": {
-    "url": "https://github.com/steveathon/bootstrap-wysiwyg/issues"
+    "url": "https://github.com/abuisine/bootstrap-wysiwyg/issues"
   },
-  "homepage": "https://github.com/steveathon/bootstrap-wysiwyg"
+  "homepage": "https://github.com/abuisine/bootstrap-wysiwyg"
 }
